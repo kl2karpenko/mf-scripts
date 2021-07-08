@@ -1,0 +1,51 @@
+{
+  "name": "@klkarpenko/mf-scripts",
+  "version": "0.1.2",
+  "private": false,
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "ts-loader": "9.2.3",
+    "webpack": "5.43.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.13.14",
+    "@babel/core": "7.13.14",
+    "@babel/plugin-proposal-class-properties": "7.14.5",
+    "@babel/preset-env": "7.13.12",
+    "@babel/preset-react": "7.13.13",
+    "@babel/preset-typescript": "7.13.0",
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "11.2.7",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-imports": "2.0.0",
+    "compression-webpack-plugin": "^8.0.1",
+    "fork-ts-checker-webpack-plugin": "^6.2.12",
+    "ts-loader": "9.2.3",
+    "typescript": "4.2.3"
+  },
+  "scripts": {
+    "start": "webpack serve --config config/webpack.js"
+  },
+  "bin": {
+    "mf-scripts": "bin/mf-scripts.js"
+  },
+  "description": "This is the main repo for MFe scrips to build and run the application",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kl2karpenko/mf-scripts.git"
+  },
+  "author": "kl2.karpenko@gmail.com",
+  "license": "ISC",
+  "files": [
+    "bin/**",
+    "init/**",
+    "config/**",
+    "scripts/**",
+    "utils/**"
+  ]
+}
